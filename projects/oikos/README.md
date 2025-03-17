@@ -2,7 +2,7 @@
 
 This adapter calculates TVL and fees for the Oikos protocol on BNB Chain using on-chain data. Unlike the Synthetix adapter, which relies on an off-chain endpoint, Oikos requires direct blockchain queries for accurate results.
 
-Methodology
+Methodology 
 TVL Calculation:
 TVL is calculated by summing the totalSupply() of all relevant Synth contracts. Each Synth’s supply is retrieved directly from the blockchain and converted to USD values.
 
